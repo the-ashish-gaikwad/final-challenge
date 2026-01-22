@@ -196,7 +196,7 @@ select {
 .section3 .cards .card {
   background-color: #2E323F;
   color: #FFF;
-  margin-top: 2rem;
+  margin-top: .6rem;
   /* text-align: center; */
   padding: 4em 2em;
 }
@@ -288,3 +288,4 @@ select {
   }
 
 }
+
