@@ -1,0 +1,236 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: monospace;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove animations for people who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  background-color: #2E323F ;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__links {
+  list-style: none;
+  color: #FFF;
+  gap: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.nav__links li {
+  transition: color ease .2s;
+}
+
+.nav__links li:hover {
+  color: #c5c7ce;
+  cursor: pointer;
+}
+
+.nav__links li:last-child {
+  background-color: #A59678;
+  padding: 0 1rem;
+  border-radius: 1rem;
+}
+
+.section1 {
+  /* min-height: 30rem; */
+  background-color: #3B4050;
+  padding: 15em 0;
+}
+
+.section1__title {
+  color: #A59678;
+  font-size: 2.5rem;
+  line-height: 2.9rem;
+  margin-bottom: 1.5rem;
+}
+
+.section1__title span{
+  color: #FFF;
+}
+
+.section1 p {
+  color: #6F737F;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.section1__btn {
+  background-color: #A59678;
+  padding: .4em 2em;
+  border-radius: 1.5rem;
+  font-size: 1rem;
+  font-size: 900;
+  border: none;
+  color: #FFF;
+}
+
+.section2 {
+  padding: 6em 0 2em;
+  background-color: #c8cbd5;
+}
+
+.cards {
+  text-align: center;
+}
+
+.cards .col{
+  margin-bottom: 4rem;
+}
+
+.section2__h2 {
+  color: #A59678;
+}
+
+.section3 {
+  padding: 6em 0;
+}
+
+.section3__img {
+  width: 100%;
+}
+
+.section3__h2 {
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+}
+
+.section3__img {
+  margin: 1rem 0;
+}
+
+.section3 .col:nth-child(2) .card {
+  background-color: #2E323F;
+  color: #FFF;
+  margin-top: 2rem;
+  text-align: center;
+  padding: 4em 2em;
+}
+
+.card p {
+  color: #cccfd7;
+}
+
+.footer {
+  background-color: #3B4050;
+  color: #FFF;
+  padding: 4em 0;
+}
+
+.footer__title {
+  margin-bottom: 1rem;
+}
+
+.footer__list {
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.footer__links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__links li {
+  color: #cccfd7;
+}
+
+.footer__links li:first-child {
+  color: #A59678;
+}
+
+
+
+@media (min-width: 700px) {
+  
+}
