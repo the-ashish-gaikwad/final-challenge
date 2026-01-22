@@ -120,6 +120,10 @@ select {
   border-radius: 1rem;
 }
 
+.nav__links li:nth-child(1), li:nth-child(2), li:nth-child(3) {
+  display: none;
+}
+
 .section1 {
   /* min-height: 30rem; */
   background-color: #3B4050;
@@ -233,4 +237,5 @@ select {
 
 @media (min-width: 700px) {
   
+
 }
