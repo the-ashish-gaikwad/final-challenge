@@ -196,8 +196,7 @@ select {
 .section3 .cards .card {
   background-color: #2E323F;
   color: #FFF;
-  margin-top: .6rem;
-  /* text-align: center; */
+  margin-top: 1.5rem;
   padding: 4em 2em;
 }
 
@@ -271,9 +270,14 @@ select {
     flex-direction: column;
   }
 
+  .section3 .cards .card {
+    margin-top: .6rem;
+  }
+
   .section3 .cards .card:first-child {
     margin-top: 0;
   }
+
 
   .section3 .col1 {
     width: 65%;
@@ -288,4 +292,3 @@ select {
   }
 
 }
-
