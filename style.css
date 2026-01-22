@@ -102,7 +102,7 @@ select {
   list-style: none;
   color: #FFF;
   gap: 1.5rem;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .nav__links li {
@@ -120,14 +120,14 @@ select {
   border-radius: 1rem;
 }
 
-.nav__links li:nth-child(1), li:nth-child(2), li:nth-child(3) {
+.nav__links li:nth-child(1), .nav__links  li:nth-child(2), .nav__links li:nth-child(3) {
   display: none;
 }
 
 .section1 {
   /* min-height: 30rem; */
   background-color: #3B4050;
-  padding: 15em 0;
+  padding: 12em 0;
 }
 
 .section1__title {
@@ -215,7 +215,7 @@ select {
 
 .footer__list {
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: .8rem;
   align-items: flex-start;
 }
 
@@ -237,5 +237,4 @@ select {
 
 @media (min-width: 700px) {
   
-
 }
