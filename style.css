@@ -317,6 +317,10 @@ body {
   padding: 4em 0;
 }
 
+.footer-content h2 {
+  margin-bottom: .4em;
+}
+
 .footer-links {
   padding: 0;
   margin-bottom: 1.8em;
@@ -387,6 +391,7 @@ body {
     width: 45%;
   }
 }
+
 
 
 
