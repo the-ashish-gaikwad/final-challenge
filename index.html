@@ -4,137 +4,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Final Challenge</title>
+    <title>Final Challenge V2</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header class="header">
-        <nav class="navbar container row">
-            <div class="logo-img">
-                <img src="img/logo.svg" alt="">
-            </div>
-            <div class="nav__list">
-                <ul class="nav__links row">
-                    <li>HOME</li>
-                    <li>ABOUT</li>
-                    <li>CONTACT</li>
-                    <li>SIGN IN</li>
-                    <li>SIGN UP</li>
-                </ul>
+        <nav class="navbar bg-dark text-white ff-serif-oswald">
+            <div class="nav-container container flex">
+                <div class="nav-logo"><img src="img/logo.svg" alt="logo-image"></div>
+                <div class="nav-list">
+                    <ul class="nav-links flex fw-700 fs-400 style-none uppercase">
+                        <li class="nav-link"><a class="text-white" href="#">Home</a></li>
+                        <li class="nav-link"><a class="text-white" href="#">About</a></li>
+                        <li class="nav-link"><a class="text-white" href="#">Contact</a></li>
+                        <li class="nav-link"><a class="text-white" href="#">Sign in</a></li>
+                        <li class="nav-link bg-accent-gold signup-btn"><a class="text-white" href="#">Sign up</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
-    <section class="section section1">
+
+    <main class="main flex">
         <div class="container">
-            <div class="box">
-                <h1 class="section1__title"><span>Responsive layouts </span> don't have to be a struggle</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quos iure praesentium impedit
-                    reprehenderit facilis iusto cum amet? Cum, nostrum?</p>
-                <button class="section1__btn">I WANT TO LEARN</button>
+            <div class="main-content">
+                <h1 class="main-heading fs-700 text-accent-gold ff-serif-oswald"><span class="text-white">Responsive layouts</span> don't have to be a struggle</h1>
+                <p class="fs-400 text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur libero optio animi laborum saepe neque qui iusto itaque maxime accusantium.</p>
+                <a class="signup-btn bg-accent-gold fs-500 text-white fw-400 ff-serif-oswald" href="#">i want to learn</a>
             </div>
         </div>
-    </section>
+    </main>
 
-    <section class="section section2">
+    <section class="features flex">
         <div class="container">
-            <div class="cards">
-                <div class="col">
-                    <h2 class="section2__h2">Mobile-first</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga delectus corporis aperiam non quos
-                        sed fugit neque dolorum dolorem praesentium. Lorem ipsum dolor sit amet consectetur adipisicing
-                        elit. Aliquid, sunt.</p>
+            <div class="feature-content">
+                <div class="feature-col">
+                    <h2 class="text-accent-gold fw-700 fs-500 ff-serif-oswald">Mobile-first</h2>
+                    <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente perspiciatis similique, nisi sed provident aspernatur earum enim quidem aliquam accusantium!</p>
                 </div>
-                <div class="col">
-                    <h2 class="section2__h2">Efficent</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga delectus corporis aperiam non quos
-                        sed fugit neque dolorum dolorem praesentium. Lorem ipsum dolor sit amet consectetur adipisicing
-                        elit. Nobis, ex.</p>
+                <div class="feature-col">
+                    <h2 class="text-accent-gold fw-700 fs-500 ff-serif-oswald">Efficient</h2>
+                    <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente perspiciatis similique, nisi sed provident aspernatur earum enim quidem aliquam accusantium!</p>
                 </div>
-                <div class="col">
-                    <h2 class="section2__h2">Done right</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga delectus corporis aperiam non quos
-                        sed fugit neque dolorum dolorem praesentium. Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Culpa, est.</p>
+                <div class="feature-col">
+                    <h2 class="text-accent-gold fw-700 fs-500 ff-serif-oswald">Done right</h2>
+                    <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente perspiciatis similique, nisi sed provident aspernatur earum enim quidem aliquam accusantium!</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="section section3">
+    <section class="details">
         <div class="container">
-            <div class="col1">
-                <h2 class="section3__h2">It doesn't have to be so hard</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt vero, doloribus qui unde eaque
-                    cumque soluta quod neque beatae, suscipit id officiis porro amet. Neque pariatur assumenda minima
-                    deleniti? Iusto.</p>
-                <img class="section3__img" src="img/hero-img.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt vero, doloribus qui unde eaque
-                    cumque soluta quod neque beatae, suscipit id officiis porro amet. Neque pariatur assumenda minima
-                    deleniti? Iusto.</p>
-            </div>
-            <div class="col2 cards">
-                <div class="card">
-                    <h2>Break it down</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, dignissimos! Lorem ipsum dolor
-                        sit amet consectetur adipisicing elit. Ad, voluptatibus.</p>
+            <div class="detail-content">
+                <div class="detail-col">
+                    <h2 class="text-accent-gold ff-serif-oswald fs-600">It does't have to be so hard</h2>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sapiente quae, aperiam recusandae fugit veniam deleniti nulla nemo dolorem dignissimos illo impedit quos et ipsam aliquid repudiandae, ratione nesciunt minima?</p>
+                    <img class="detail-img" src="img/hero-img.jpg" alt="hero image">
+                    <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam et nihil velit earum? Explicabo, neque sequi! Amet beatae tenetur dignissimos fuga distinctio suscipit quidem mollitia, expedita ex autem vero temporibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, aspernatur!</p>
                 </div>
-                <div class="card">
-                    <h2>Work way up</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, dignissimos! Lorem ipsum dolor
-                        sit, amet consectetur adipisicing elit. Omnis, illum.</p>
-                </div>
-                <div class="card">
-                    <h2>Break it down</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, dignissimos! Lorem ipsum dolor
-                        sit, amet consectetur adipisicing elit. Corporis, harum?</p>
+                <div class="detail-col detail-cards">
+                    <div class="card bg-dark">
+                        <h3 class="text-white fs-400">Break it down</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis perspiciatis optio tempore asperiores officia dolores quam esse? Reprehenderit, neque eveniet!</p>
+                    </div>
+                    <div class="card bg-dark">
+                        <h3 class="text-white fs-400">Break it down</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis perspiciatis optio tempore asperiores officia dolores quam esse? Reprehenderit, neque eveniet!</p>
+                    </div>
+                    <div class="card bg-dark">
+                        <h3 class="text-white fs-400">Break it down</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis perspiciatis optio tempore asperiores officia dolores quam esse? Reprehenderit, neque eveniet!</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
     <footer class="footer">
         <div class="container">
-            <h2 class="footer__title">Just scratching the surface</h2>
-            <div class="footer__list row">
-                <ul class="footer__links">
-                    <li>About our company</li>
-                    <li>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Minima, vero maiores deserunt
-                            suscipit minus alias tenetur ipsa  <br> expedita. Porro, similique?</p>
-                    </li>
-                </ul>
-
-                <ul class="footer__links">
-                    <li>Getting around</li>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                </ul>
-
-                <ul class="footer__links">
-                    <li>Other things</li>
-                    <li>Lorem ipsum</li>
-                    <li>lorem</li>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum</li>
-                </ul>
-
-                <ul class="footer__links">
-                    <li>And more</li>
-                    <li>Lorem ipsum</li>
-                    <li>lorem</li>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum</li>
-                </ul>
+            <div class="footer-content">
+                <h2 class="text-white fs-500">Just scratching the surface</h2>
+                <div class="footer-list text-muted">
+                    <ul class="footer-links style-none">
+                        <li class="text-accent-gold fw-700">About our company</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque expedita dignissimos eveniet deleniti nihil et reprehenderit similique! Voluptate, nulla eveniet?</li>
+                    </ul>
+                    <ul class="footer-links style-none">
+                        <li class="footerlink text-accent-gold fw-700">Getting around</li>
+                        <li class="footerlink">Home</li>
+                        <li class="footerlink">About</li>
+                        <li class="footerlink">contact</li>
+                    </ul>
+                    <ul class="footer-links style-none">
+                        <li class="footerlink text-accent-gold fw-700">Getting around</li>
+                        <li class="footerlink">Home</li>
+                        <li class="footerlink">About</li>
+                        <li class="footerlink">contact</li>
+                    </ul>
+                    <ul class="footer-links style-none">
+                        <li class="footerlink text-accent-gold fw-700">Getting around</li>
+                        <li class="footerlink">Home</li>
+                        <li class="footerlink">About</li>
+                        <li class="footerlink">contact</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </footer>
-    <script></script>
 </body>
 
 </html>
