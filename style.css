@@ -243,8 +243,12 @@ body {
   padding: 8em 0;
 }
 
-.main-content a {
+.main-content button {
   text-decoration: none;
+  border-radius: 2rem;
+  text-align: center;
+  padding: .2em 1.2em;
+  border: none;
 }
 
 .main-content > * {
@@ -364,5 +368,6 @@ body {
     width: 45%;
   }
 }
+
 
 
